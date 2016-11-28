@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "project helper",
   "main": "index.js",
+  "bin": {
+    "p-helper": "index.js"
+  },
   "scripts": {
     "test": "node index.js"
   },

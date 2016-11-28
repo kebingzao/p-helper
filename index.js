@@ -6,6 +6,9 @@ const chalk = require('chalk');
 const fs = require("fs-extra");
 
 
+const pkg = require('./package.json');
+program.version(pkg.version);
+
 program
     .command('init')
     .alias('i')
